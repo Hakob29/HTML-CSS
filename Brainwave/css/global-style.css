@@ -1,0 +1,35 @@
+/* ---------GLOBAL OPTIONS---------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --black: #161c2d;
+  --blue: #473bf0;
+  --white: #ffffff;
+  --background-green: #68d58510;
+  --green: #68d585;
+  --gray: #f4f7fa;
+  --dark_gray: #bdbdbd;
+
+  /* FONT */
+  --font-bold: "Gilroy-Bold", sans-serif;
+  --font-regular: "Gilroy-Regular", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
